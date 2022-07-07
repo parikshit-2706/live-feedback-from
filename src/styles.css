@@ -21,3 +21,14 @@
   padding: 1rem;
   display: flex;
 }
+
+.listbox {
+  list-style-type: none;
+  background-color: slategrey;
+}
+
+.listbox li {
+  margin: 0.5rem;
+  width: 100%;
+  color: white;
+}

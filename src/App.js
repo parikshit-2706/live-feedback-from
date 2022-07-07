@@ -37,7 +37,7 @@ export default function App() {
 
       <div className="form--style">
         <Form takeFeedback={takeFeedback} />
-        <ol>
+        <ul className="listbox">
           {" "}
           {feedback.length == 0 ? (
             <h3>Feels so empty</h3>
@@ -50,7 +50,7 @@ export default function App() {
               );
             })
           )}
-        </ol>
+        </ul>
       </div>
     </div>
   );
