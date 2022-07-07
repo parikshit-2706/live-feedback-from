@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav {
+  background-color: oldlace;
+}
+
+.feedback-form {
+  border-style: dashed;
+  min-height: 10rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: navajowhite;
+}
+
+.inner--form {
+  padding: 1rem;
+  display: flex;
+}
