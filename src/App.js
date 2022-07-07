@@ -6,9 +6,9 @@ import { useState } from "react";
 export default function App() {
   const [feedback, setFeedback] = useState([
     {
-      alias: "",
-      email: "",
-      feedback: ""
+      alias: "Brooklyn",
+      email: "brooklyn@hotmail.com",
+      feedback: "Good work!"
     }
   ]);
 
